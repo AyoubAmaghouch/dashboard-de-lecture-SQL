@@ -23,7 +23,7 @@ CREATE TABLE commentaire (
 );
 INSERT INTO article (titre, contenu, date_publication, id_utilisateur, id_categorie)
 VALUES
-('Article SQL', 'Contenu sur SQL', '2026-01-05', 1, 1),
+('Article SQL', 'Contenu sur SQL', '2026-01-04', 1, 1),
 ('Article PHP', 'Contenu sur PHP', '2026-01-07', 2, 1);
 
 INSERT INTO commentaire (contenu, date_publication, id_utilisateur, id_article)
